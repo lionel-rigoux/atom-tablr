@@ -8,8 +8,8 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
 'tablr-editor':
-  'tab': 'tablr:move-right-in-selection'
-  'shift-tab': 'tablr:move-left-in-selection'
+  'enter': 'tablr:move-right-in-selection'
+  'shift-enter': 'tablr:move-left-in-selection'
   'home': 'core:move-to-top'
   'end': 'core:move-to-bottom'
   'ctrl-alt-left': 'tablr:shrink-column'
@@ -63,9 +63,9 @@
   'ctrl-alt-right': 'tablr:move-column-right'
 
 'tablr-editor atom-text-editor[mini]':
-  'enter': 'core:confirm'
-  'ctrl-enter': 'editor:newline'
-  'cmd-enter': 'editor:newline'
-  'tab': 'tablr:move-right-in-selection'
-  'shift-tab': 'tablr:move-left-in-selection'
+  'tab': 'core:confirm'
+  'ctrl-tab': 'editor:newline'
+  'cmd-tab': 'editor:newline'
+  'enter': 'tablr:move-right-in-selection'
+  'shift-enter': 'tablr:move-left-in-selection'
   'ctrl-tab': 'editor:indent'
