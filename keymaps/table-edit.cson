@@ -64,7 +64,7 @@
 
 'tablr-editor atom-text-editor[mini]':
   'tab': 'core:confirm'
-  'ctrl-tab': 'editor:newline'
+  'ctrl-enter': 'editor:newline'
   'cmd-tab': 'editor:newline'
   'enter': 'tablr:move-right-in-selection'
   'shift-enter': 'tablr:move-left-in-selection'
